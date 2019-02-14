@@ -17,14 +17,15 @@ The average accuracy achieved by the group is in the 98.0% - 98.5% range. Again,
 An example of what the sets of hyperparameters output by the evolutionary algorithm might look like:  
 
 ```
- Layout 1: [784 47 10], Mini Batch Size: 7, Learning Rate: 0.587307863476, Regularization Rate: 0.477624949415
+Layout 1: [784 47 10], Mini Batch Size: 7, Learning Rate: 0.587307863476, Regularization Rate: 0.477624949415
 Layout 2: [784 89 10], Mini Batch Size: 18, Learning Rate: 0.930009388195, Regularization Rate: 0.477624949415
 Layout 3: [784 53 10], Mini Batch Size: 18, Learning Rate: 0.53817820585, Regularization Rate: 0.718179044034
 Layout 4: [784 89 10], Mini Batch Size: 16, Learning Rate: 0.930009388195, Regularization Rate: 0.718179044034
 Layout 5: [784 53 10], Mini Batch Size: 18, Learning Rate: 0.53817820585, Regularization Rate: 1.00397304786
 Layout 6: [784 39 10], Mini Batch Size: 7, Learning Rate: 0.31251737242, Regularization Rate: 0.477624949415
 Layout 7: [784 89 10], Mini Batch Size: 21, Learning Rate: 0.930009388195, Regularization Rate: 0.477624949415
-Layout 8: [784 47 10], Mini Batch Size: 21, Learning Rate: 0.587307863476, Regularization Rate: 0.477624949415 ```
+Layout 8: [784 47 10], Mini Batch Size: 21, Learning Rate: 0.587307863476, Regularization Rate: 0.477624949415
+```
 
 What’s important here is (obviously) that the hyperparameter sets work well, but also that they’re distinct. If they’re too similar, the idea of the networks learning different representations of the world is lost.
 
