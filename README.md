@@ -1,4 +1,4 @@
-### Overview
+## Overview
 
 In this repo, I explore the use of an evolutionary algorithm for the optimization of a neural network’s hyperparameters, as well as the idea of having a group of neural networks work together to achieve better results than the group’s members could achieve individually.
 
@@ -8,7 +8,7 @@ The neural network implementation itself is fairly basic. It’s a feedforward n
 
 The hyperparameters being optimized are the layout of the neural network’s hidden layers (the number of hidden layers as well as the number of neurons in each hidden layer), the mini batch size, the learning rate and the regularization rate.
 
-### Results & Discussion
+## Results & Discussion
 
 The individual neural networks usually reach accuracies in the 96.5% - 97.5% range. That’s fairly good, though it could obviously be improved quite a bit further by using a more sophisticated neural network implementation. However, the point here is that it appears to be close to the maximum that can be achieved with the given setup. In other words, optimizing the hyperparameters using an evolutionary algorithm appears to work.
 
@@ -31,6 +31,6 @@ What’s important here is (obviously) that the hyperparameter sets work well, b
 
 The evolutionary algorithm appears to prefer networks with a single hidden layer. This might be because it’s really optimal, but it could also very well be the case that deeper neural networks are getting filtered out because they take longer to train and therefore don’t perform well with the relatively low epoch count used in the evolutionary algorithm.
 
-### Disclaimer
+## Disclaimer
 
 Clearly, this isn’t meant as any sort of formal investigation into hyperparameter optimization or neural network grouping. I did this for fun and to improve my own intuition about neural networks and their optimization. Feel free to play around with the code or use it for your own experiments, but take it with a grain of salt.
